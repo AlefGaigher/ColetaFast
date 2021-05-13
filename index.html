@@ -16,9 +16,12 @@
 </head>
 
 <body>
-    <div class="container bg-white mt-5 mb-5 rounded-3 border">
+    <div class="topo">
+        <img src="LOGO-RODAPE-removebg-preview.png" class="img-fluid" alt="...">
+    </div>
+    <div class="container bg-white mt-5 mb-5 rounded-3 border principal">
         <div class="container pt-3 ">
-            <div class="bg-primary text-white rounded pb-2 pt-2 d-flex justify-content-center"> PROTOCOLO 1234</div>
+            <div class="bg-primary text-white rounded pb-2 pt-2 d-flex justify-content-center"> FORMULÁRIO DE RESPOSTA DA COTAÇÃO: 1760-1</div>
         </div>
         <div class="container d-flex flex-row-reverse mt-2">
             <span class="badge bg-primary">9</span> Dias restantes para resposta: &nbsp;
@@ -30,21 +33,21 @@
                         <button class="accordion-button collapsed bg-primary text-white rounded-3" type="button"
                             data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                             aria-controls="flush-collapseOne">
-                            Dados do Fornecedor
+                            Dados do Solicitante
                         </button>
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                         data-bs-parent="#accordionFlushExample">
                         <div class="container mt-2">
                             <div class="row align-items-center">
-                                <div class="col-lg-6 col-12">
-                                    <img src="20190714_145953.png" class="img-fluid w-25 h-25" alt="...">
+                                <div class="col-lg-4 col-12">
+                                    <img src="Banner_Ausonia.gif" class="img-fluid w-100 " alt="...">
                                 </div>
-                                <div class="accordion-body col-lg-6 col-12">
-                                    Placeholder content for this accordion, which is intended to
-                                    demonstrate
-                                    the
-                                    <code>.accordion-flush</code> class. This is the first item's accordion body.
+                                <div class="accordion-body col-lg-8 col-12">
+                                    Razão Social: Ausonia Ltda <br>
+                                    Nome de Fantasia: Ausonia <br>
+                                    Endereço: Rua do Ó, Santa Rita, Vila Velha, ES, 29060 <br>
+                                    CNPJ: 31299035000105 <br>
                                 </div>
                             </div>
                         </div>
@@ -55,21 +58,22 @@
                         <button class="accordion-button collapsed bg-primary text-white rounded-3" type="button"
                             data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
                             aria-controls="flush-collapseTwo">
-                            Dados do Distribuidor
+                            Dados do Fornecedor
                         </button>
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                         data-bs-parent="#accordionFlushExample">
                         <div class="container mt-2">
                             <div class="row align-items-center">
-                                <div class="col-lg-6 col-12">
-                                    <img src="20190714_145953.png" class="img-fluid w-25 h-25" alt="...">
+                                <div class="col-lg-4 col-12">
+                                    <img src="3597_JohnP.jpg" class="img-fluid w-100" alt="...">
                                 </div>
-                                <div class="accordion-body col-lg-6 col-12">
-                                    Placeholder content for this accordion, which is intended to
-                                    demonstrate
-                                    the
-                                    <code>.accordion-flush</code> class. This is the first item's accordion body.
+                                <div class="accordion-body col-lg-8 col-12">
+                                    Razão Social: A & C TECNOLOGIA E SERVICOS LTDA <br>
+                                    Nome de Fantasia: A & C TECNOLOGIA<br>
+                                    Endereço: AV.MIRAMAR , N° 108 - LOJA 02, N. SENHORA DE FATIMA, SERRA, ES, 29160782<br>
+                                    CNPJ: 03096747000183<br>
+                                    Contato: BETO<br>
                                 </div>
                             </div>
                         </div>
@@ -78,27 +82,71 @@
             </div>
         </div>
         <div class="container ">
-            <div>Esta mensagem é apenas um teste, então aproveite esse teste, confira os itens abaixo:</div>
+            <div>Apresentamos nossa proposta para a cotação de preços conforme listagem abaixo:</div>
         </div>
-        <div class="container mt-4">
-            <div class="row align-items-center">
-                <div class="col-1">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+
+        <!--Produtos Cotação-->
+         <div class="d-none d-sm-block">   
+            <div class="container mt-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-1">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    </div>
+                    <div class="col-lg-2">Caminhão basculante</div>
+                    <div class="col-lg-1">h</div>
+                    <div class="col-lg-2">8,00 unid.</div>
+                    <div class="col-lg-2">
+                        <input class="form-control form-control-sm" type="number" placeholder="Preço Unit."
+                            aria-label=".form-control-sm example">
+                    </div>
+                    <div class="col-lg-2">
+                        <input class="form-control form-control-sm" type="number" placeholder="(%)IPI"
+                            aria-label=".form-control-sm example">
+                    </div>
+                    <div class="col-lg-2">Total: R$0,00</div>
                 </div>
-                <div class="col-3">Caminhão</div>
-                <div class="col-1">h</div>
-                <div class="col-2">8,00 unid.</div>
-                <div class="col-2">
-                    <input class="form-control form-control-sm" type="number" placeholder="Preço Unit."
-                        aria-label=".form-control-sm example">
-                </div>
-                <div class="col-2">
-                    <input class="form-control form-control-sm" type="number" placeholder="(%)IPI"
-                        aria-label=".form-control-sm example">
-                </div>
-                <div class="col-1">0,00</div>
             </div>
         </div>
+        <!--Produtos Cotação END-->
+
+        <!--Produtos Cotação Collapse-->
+        <div class="container pt-1 pb-1 d-block d-sm-none">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item border mb-1">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed bg-primary text-white rounded-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <div class="col-1">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" disabled>
+                            </div>
+                            <div class="col-4">Caminhão...</div>
+                            <div class="col-3">h</div>
+                            <div class="col-3">8,00 unid.</div>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="container mt-2">
+                            <div class="row align-items-center">                                
+                                <div class="accordion-body">
+                                    <div class="col-12"> Caminhão basculante 14m3 235kw</div>
+                                    <div class="col-12 mt-2">
+                                        <input class="form-control form-control-sm" type="number" placeholder="Preço Unit." aria-label=".form-control-sm example">
+                                    </div>
+                                    <div class="col-12 mt-2">
+                                        <input class="form-control form-control-sm" type="number" placeholder="(%)IPI" aria-label=".form-control-sm example">
+                                    </div>
+                                    <div class="col-12 mt-2">Total: R$0,00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Produtos Cotação Collapse END-->
+
         <div class="container mt-5 mb-5">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-12">Forma de Pagamento

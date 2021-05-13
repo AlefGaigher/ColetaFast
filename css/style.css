@@ -7,19 +7,34 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-body{
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(351deg, rgba(255,255,255,1) 43%, rgba(20,92,140,1) 43%);
-    background: -webkit-linear-gradient(351deg, rgba(255,255,255,1) 43%, rgba(20,92,140,1) 43%);
-    background: linear-gradient(351deg, rgba(255,255,255,1) 43%, rgba(20,92,140,1) 43%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#145c8c",GradientType=1);
+body {
+    padding-top: 6rem;
+    background: #F8F8F8;
+    background: linear-gradient(351deg, #F8F8F8 49%, rgba(20,92,140,1) 49%);
     background-repeat: no-repeat;
-    
+    background-attachment: fixed;
+}
+.topo {
+    position: fixed;
+    left: 0pt;
+    top: 0pt;
+    z-index: -1;
+}
+
+.principal {
+    margin-top: 50pt;
 }
 
 .bg-primary {
     background-color: rgba(20,92,140,1)  !important;
 }
 .btn-primary{
-    background-color: rgba(20,92,140,1)  !important;
+    background-color: rgba(20,92,140,1)  !important;    
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding-left: 2pt;
+        padding-right: 2pt;
+    }
 }

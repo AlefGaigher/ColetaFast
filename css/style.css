@@ -14,3 +14,14 @@ body{
 .btn-primary{
     background-color: rgba(20,92,140,1)  !important;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

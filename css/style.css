@@ -1,3 +1,12 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 body{
     background: rgb(255,255,255);
     background: -moz-linear-gradient(351deg, rgba(255,255,255,1) 43%, rgba(20,92,140,1) 43%);
@@ -13,15 +22,4 @@ body{
 }
 .btn-primary{
     background-color: rgba(20,92,140,1)  !important;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
 }

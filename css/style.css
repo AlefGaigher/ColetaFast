@@ -1,0 +1,16 @@
+body{
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(351deg, rgba(255,255,255,1) 43%, rgba(20,92,140,1) 43%);
+    background: -webkit-linear-gradient(351deg, rgba(255,255,255,1) 43%, rgba(20,92,140,1) 43%);
+    background: linear-gradient(351deg, rgba(255,255,255,1) 43%, rgba(20,92,140,1) 43%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#145c8c",GradientType=1);
+    background-repeat: no-repeat;
+    
+}
+
+.bg-primary {
+    background-color: rgba(20,92,140,1)  !important;
+}
+.btn-primary{
+    background-color: rgba(20,92,140,1)  !important;
+}

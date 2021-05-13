@@ -30,7 +30,7 @@
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item border mb-1">
                     <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed bg-primary text-white rounded-3" type="button"
+                        <button class="accordion-button collapsed bg-primary text-white rounded-3 " type="button"
                             data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                             aria-controls="flush-collapseOne">
                             Dados do Solicitante
@@ -161,18 +161,22 @@
                         placeholder="0,00" aria-label=".form-control-sm example"></div>
                 <div class="col-lg-3 col-12 mt-lg-0 mt-2">Data de Entrega: <input class="form-control form-control-sm"
                         type="date" placeholder="Data de Entrega" aria-label=".form-control-sm example"></div>
-                <div class="col-lg-8 col-12 mt-lg-4 mt-2">
+                <div class="col-lg-7 col-12 mt-lg-4 mt-2">
                     <div class="mb-1">
                         <label for="exampleFormControlTextarea1" class="form-label">Observação</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                 </div>
-                <div class="col-auto mt-2 mt-lg-0"><button type="button" class="btn btn-primary"><i class="fa fa-reply"
-                            aria-hidden="true"></i>&nbsp; Responder Coleta</button></div>
-                &nbsp;
-                &nbsp;
-                <div class="col-auto mt-2 mt-lg-0"><button type="button" class="btn btn-primary"><i class="fa fa-times"
-                            aria-hidden="true"></i>&nbsp; Não Cotar</button></div>
+                <div class="col-lg-auto col-12 mt-2">
+                    <div class="gap-2 d-md-block">
+                          <button type="button" class="btn btn-primary">
+                                <i class="fa fa-reply" aria-hidden="true"></i>&nbsp; Responder Coleta
+                            </button>
+                          <button type="button" class="btn btn-danger">
+                                <i class="fa fa-times" aria-hidden="true"></i>&nbsp; Não Cotar
+                            </button>
+                    </div>
+                </div>                
             </div>
         </div>
     </div>

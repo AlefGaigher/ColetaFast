@@ -32,6 +32,10 @@ body {
     background-color: rgba(20,92,140,1)  !important;    
 }
 
+.btn{
+  width: 11rem;
+}
+
 @media only screen and (max-width: 600px) {
     .container {
         padding-left: 2pt;

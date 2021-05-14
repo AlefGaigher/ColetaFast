@@ -43,6 +43,6 @@ body {
     }
 }
 
-.accordion-item{
-    color: red;
+.accordion .accordion-flush{
+    color: red !important;
 }

@@ -43,6 +43,6 @@ body {
     }
 }
 
-.card-header.collapsed .fa {
+.accordion-item{
     color: red;
 }

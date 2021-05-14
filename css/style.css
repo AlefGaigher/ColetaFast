@@ -42,3 +42,7 @@ body {
         padding-right: 2pt;
     }
 }
+
+.card-header.collapsed .fa {
+    color: red;
+}
